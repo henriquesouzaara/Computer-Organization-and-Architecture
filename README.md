@@ -189,7 +189,7 @@ OneWire
 ## 📁 Estrutura do Repositório
 
 ```
-mission-control-ai/
+Computer-Organization-and-Architecture/
 │
 ├── 📄 README.md
 ├── 📄 mission_control_ai.ino
