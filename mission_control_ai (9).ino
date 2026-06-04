@@ -2,7 +2,6 @@
 // MISSION CONTROL AI — Sistema de Monitoramento de Cápsula Espacial
 // =============================================================================
 // Disciplinas : Computer Organization and Architecture
-//               Soluções em Energias Renováveis e Sustentáveis
 // Plataforma  : Arduino Uno / Wokwi
 // Versão      : 1.4 — sensor DS18B20
 // =============================================================================
