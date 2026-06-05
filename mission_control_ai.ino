@@ -2,7 +2,6 @@
 // MISSION CONTROL AI — Sistema de Monitoramento de Cápsula Espacial
 // =============================================================================
 // Disciplinas : Computer Organization and Architecture
-//               Soluções em Energias Renováveis e Sustentáveis
 // Plataforma  : Arduino Uno / Wokwi
 // Versão      : 1.4 — sensor DS18B20
 // =============================================================================
@@ -309,7 +308,7 @@ void atualizarDisplay() {
   // Rotação de telas
   if (agora - ultimaTroca >= intervalo) {
     ultimaTroca = agora;
-    telaAtual   = (telaAtual + 1) % 5;
+    telaAtual   = (telaAtual + 1) % 4;
 
     char l0[17], l1[17];
 
@@ -345,13 +344,6 @@ void atualizarDisplay() {
         break;
 
       case 3:
-        snprintf(l0, sizeof(l0), "GER: %4d mW", (int)geracao);
-        snprintf(l1, sizeof(l1), "CONS:%4d mW", (int)consumo);
-        lcdLinha(0, l0);
-        lcdLinha(1, l1);
-        break;
-
-      case 4:
         snprintf(l0, sizeof(l0), "BAL:%+5d mW", (int)balanco);
         snprintf(l1, sizeof(l1), "EFI: %3d %%",  (int)eficiencia);
         lcdLinha(0, l0);
