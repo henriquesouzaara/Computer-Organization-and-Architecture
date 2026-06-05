@@ -201,7 +201,7 @@ Computer-Organization-and-Architecture/
 
 ## 👨‍💻 Autor
 
-Desenvolvido como projeto acadêmico — FIAP 2025
+Desenvolvido como projeto acadêmico — FIAP 2026
 Disciplina: **Computer Organization and Architecture**
 
 ---
